@@ -1,0 +1,28 @@
+body, html {
+  min-height: 100%;
+  background: url("/home/adrien/Desktop/becode/animation-card/animation-card/josh-hild.jpg") center center;
+  background-size: cover;
+}
+
+p {
+  color: green;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2000px;
+  background: url("/home/adrien/Desktop/becode/animation-card/animation-card/assets/images/snow-light.png") center center;
+  background-size: cover;
+  animation: fall 10s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-1000px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
